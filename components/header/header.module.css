@@ -1,0 +1,22 @@
+.header-wrapper {
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    padding: 150px 0;
+    position: relative;
+}
+.head-1 {
+    font-size: 8em;
+    font-weight: 700;
+    /* color:  #03a9f4; */
+    color: black;
+        -webkit-text-fill-color: whitesmoke;
+        -webkit-text-stroke-width: 2px;
+}
+
+
+
+
+  
+  
+  

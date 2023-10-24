@@ -33,21 +33,24 @@ export const Header = () => {
         <div className={HeaderStyle['header-wrapper']}>
             
             {
-              hidden ? <h5 className={HeaderStyle['head-1']}>hello</h5> : <><h5 className={HeaderStyle['head-1']}>{texts[currentIndex]}</h5></>
+              hidden ? 
+
+              <h5 className={HeaderStyle['head-1']}>hello</h5>
+              
+            :
+              
+              <>
+                <div className={HeaderStyle["wrapper"]}>
+                  <svg className={HeaderStyle['svg']}>
+                    <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+                        {texts[currentIndex]}
+                    </text>
+                  </svg>
+                </div>
+              </>
             }
             
         </div>
     )
 }
 
-
-
-
-
-// useEffect(() => {
-//     const timer = setTimeout(() => {
-//         setHidden(false);
-//     }, 4000)
-
-//     return () => clearTimeout(timer);
-// }, []);

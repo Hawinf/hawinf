@@ -4,6 +4,8 @@
     text-align: center;
     padding: 150px 0;
     position: relative;
+
+    
 }
 .head-1 {
     font-size: 8em;
@@ -41,46 +43,3 @@
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
 	}
 }
-
-/* .wrapper {background-color: #FFFFFF}; */
-
-
-
-/* @keyframes zoomIn {
-    from {
-      transform: scale(1);
-    }
-    to {
-      transform: scale(1.2);
-    }
-  }
-  
-  @keyframes zoomOut {
-    from {
-      transform: scale(1.2);
-    }
-    to {
-      transform: scale(1);
-    }
-  } */
-  
-
-  
-  /* @keyframes rotateFront {
-    from {
-      transform: rotateY(180deg);
-    }
-    to {
-      transform: rotateY(360deg);
-    }
-  }
-  
-  @keyframes rotateBack {
-    from {
-      transform: rotateY(180deg);
-    }
-    to {
-      transform: rotateY(0deg);
-    }
-  }
-   */

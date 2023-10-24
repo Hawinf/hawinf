@@ -12,11 +12,49 @@
     color: black;
         -webkit-text-fill-color: whitesmoke;
         -webkit-text-stroke-width: 2px;
+        /* animation: zoomIn 10s ease-in-out; */
+    /* transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out; */
+
+    animation: rotateFront 2s linear; /* Rotate forward over 2 seconds */
+    transform-style: preserve-3d;
 }
 
 
-
+/* @keyframes zoomIn {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }
+  
+  @keyframes zoomOut {
+    from {
+      transform: scale(1.2);
+    }
+    to {
+      transform: scale(1);
+    }
+  } */
+  
 
   
+  @keyframes rotateFront {
+    from {
+      transform: rotateY(180deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
   
+  @keyframes rotateBack {
+    from {
+      transform: rotateY(180deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
+  }
   

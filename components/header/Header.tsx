@@ -2,20 +2,24 @@ import HeaderStyle from './header.module.css';
 import { useState, useEffect } from 'react';
 
 export const Header = () => {
-    // const [hidden, setHidden] = useState(true);
+    const [hidden, setHidden] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
-    const texts = ["WORK", "THAT", "MATTER", "HELLO WORLD", "HAWINF"];
+    const texts = ["HELLO WORLD"];
     
     useEffect(() => {
-        const switchText = () => {
-            // setHidden(false)
-          setCurrentIndex((prevIndex) => (prevIndex + 1) % texts.length);
-        };
-    
-        const switchInterval = setInterval(switchText, 2500); // Show each text for 2 seconds
-    
-        return () => clearInterval(switchInterval);
+      const switchText = () => {
+      setHidden(true)
+      setCurrentIndex((prevIndex) => (prevIndex + 1));
+      };
+
+      const switchInterval = setInterval(switchText, 3000); 
+
+      return () => clearInterval(switchInterval);
       }, []);
+
+
+      
+      
 
 
     return (
@@ -27,7 +31,11 @@ export const Header = () => {
         // </div> 
         
         <div className={HeaderStyle['header-wrapper']}>
-            <h5 className={HeaderStyle['head-1']}>{texts[currentIndex]}</h5>
+            
+            {
+              hidden ? <h5 className={HeaderStyle['head-1']}>hello</h5> : <><h5 className={HeaderStyle['head-1']}>{texts[currentIndex]}</h5></>
+            }
+            
         </div>
     )
 }

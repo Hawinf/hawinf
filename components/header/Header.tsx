@@ -1,10 +1,11 @@
+import Link from 'next/link';
 import HeaderStyle from './header.module.css';
 import { useState, useEffect } from 'react';
 
 export const Header = () => {
     const [hidden, setHidden] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
-    const texts = ["HELLO WORLD"];
+    const texts = ["HELLO,"];
     
     useEffect(() => {
       const switchText = () => {
@@ -30,13 +31,21 @@ export const Header = () => {
         //     </div>
         // </div> 
         
-        <div className={HeaderStyle['header-wrapper']}>
-            
+        // <div className={HeaderStyle['header-wrapper']}>
+        <>
+
             {
               hidden ? 
-
-              <h5 className={HeaderStyle['head-1']}>hello</h5>
-              
+              <div className='container'>
+                <div className={HeaderStyle['header']}>
+                  <p className={HeaderStyle['head-desc']}> Hello my name is,</p>
+                  <h5 className={HeaderStyle['head-1']}>HAWIN FAHMI</h5>
+                  <p className={HeaderStyle['head-desc-1']}>I am presently in the process of acquiring skills in <span>Frontend Development</span>, focusing on building the user interfaces of websites and web applications.</p>
+                  <Link href="https://hawinf54@gmail.com" className={HeaderStyle['contact']}>
+                    Contact
+                  </Link>
+                </div>
+              </div>
             :
               
               <>
@@ -50,7 +59,8 @@ export const Header = () => {
               </>
             }
             
-        </div>
+        </>
+        // </div>
     )
 }
 

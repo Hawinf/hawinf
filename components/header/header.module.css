@@ -1,35 +1,70 @@
 .header-wrapper {
     /* display: flex;
     justify-content: center; */
-    text-align: center;
-    padding: 150px 0;
+    /* text-align: center; */
+    padding: 160px 0;
     position: relative;
-
-    
+	/* height: 300px; */
+}
+.header {
+	padding: 200px 0;
+}
+.head-desc {
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
 }
 .head-1 {
-    font-size: 8em;
-    font-weight: 700;
-    /* color:  #03a9f4; */
-    color: black;
-        -webkit-text-fill-color: whitesmoke;
-        -webkit-text-stroke-width: 2px;
-        /* animation: zoomIn 10s ease-in-out; */
-    /* transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out; */
-
-    animation: rotateFront 2s linear; /* Rotate forward over 2 seconds */
-    transform-style: preserve-3d;
+	color:  #365FA0;
+	line-height: 44px;
+	font-size: 55px;
+	font-weight: 700;
+}
+.head-desc {
+	line-height: 1px;
+	/* color: rgb(250, 220, 166); */
+	color: #4c5f7a;
+	
+}
+.head-desc-1 {
+	width: 50%;
+	color: rgb(210, 193, 163);
+	font-weight: 500;
+}
+.header span {
+	/* color: rgb(250, 220, 166); */
+	color: #4c5f7a;
+	font-weight: 700;
+}
+.contact {
+	font-weight: 700;
+    background: transparent;
+    border: 2px solid lightblue;
+    color: rgb(210, 193, 163);
+	padding: 7px;
+	border-radius: 3px;
+	text-decoration: none;
 }
 
+
+.wrapper{
+	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 500px;
+}
 .svg {
 	font-family: "Russo One", sans-serif;
-	width: 100%; height: 100%;
+	/* width: 100%; height: 100%; */
+	padding: 37px 0;
 }
 .svg text {
 	animation: stroke 5s infinite alternate;
 	stroke-width: 2;
 	stroke: #365FA0;
 	font-size: 100px;
+	
 }
 @keyframes stroke {
 	0%   {
@@ -41,5 +76,31 @@
 	100% {
 		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
 		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+@media (max-width:992px) {
+	.head-desc-1 {
+		width: 75%;
+	}
+}
+
+
+@media (max-width:768px) {
+	.head-desc {
+		font-size: 17px;
+	}
+	.head-desc-1 {
+		width: 70%;
+		font-size: 14px;
+	}
+}
+
+@media (max-width:576px) {
+	.head-1 {
+		font-size: 50px;
+	}
+	.head-desc-1 {
+		width: 90%;
 	}
 }

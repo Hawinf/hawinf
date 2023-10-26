@@ -35,7 +35,7 @@
 .work-desc {
     margin-left: 15px;
     font-size: 17px;
-    color: #9990e1;
+    color: #9991d8;
     /* line-height: 5px; */
     width: 60%;
 }
@@ -89,10 +89,16 @@
 }
 
 @media (max-width:576px) {
+    .work-img {
+        width: 90%;
+    }
     .about-judul {
         font-size: 35px;
     }
     .work-1 {
         height: 470px;
+    }
+    .work-desc {
+        width: 90%;
     }
 }

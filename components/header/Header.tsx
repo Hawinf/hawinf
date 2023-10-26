@@ -13,7 +13,7 @@ export const Header = () => {
       setCurrentIndex((prevIndex) => (prevIndex + 1));
       };
 
-      const switchInterval = setInterval(switchText, 3000); 
+      const switchInterval = setInterval(switchText, 6000); 
 
       return () => clearInterval(switchInterval);
       }, []);

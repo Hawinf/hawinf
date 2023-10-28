@@ -39,7 +39,7 @@ export const Header = () => {
               <div className='container'>
                 <div className={HeaderStyle['header']}>
                   <p className={HeaderStyle['head-desc']}> Hello my name is,</p>
-                  <h5 className={HeaderStyle['head-1']}>HAWIN FAHMI</h5>
+                  <h5 className={HeaderStyle['head-1']}>HAWIN<span className={HeaderStyle['span']}>FAHMI</span></h5>
                   <p className={HeaderStyle['head-desc-1']}>I am presently in the process of acquiring skills in <span>Frontend Development</span>, focusing on building the user interfaces of websites and web applications.</p>
                   <Link href="https://hawinf54@gmail.com" className={HeaderStyle['contact']}>
                     Contact

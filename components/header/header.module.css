@@ -22,6 +22,9 @@
 	font-size: 55px;
 	font-weight: 700;
 }
+.head-1 .span {
+	color: yellow;
+}
 .head-desc {
 	line-height: 1px;
 	/* color: rgb(250, 220, 166); */

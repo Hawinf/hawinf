@@ -1,88 +1,43 @@
 import AboutStyle from './about.module.css';
 import Work1 from '../../assets/images/bcr-platinum.png';
 import Work2 from '../../assets/images/bcr-customer.png';
+import Github from '../../assets/images/github.png';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export const About = () => {
     return (
         <div className={AboutStyle['wrapper-about']}>
-            {/* <div className='container'> */}
-
             <div className='container'>
-                <h5 className={AboutStyle['about-judul']}>My Latest Works</h5>
-                <div>
-                    <div className={AboutStyle['work-1']}>
-                        <Image src={Work1} 
-                                    className={AboutStyle['work-img']}
-                                    alt="Image Description"
-                                    width="100"      
-                                    height="100" 
-                                    placeholder='blur'
-                        />
-                        <h6 className={AboutStyle['work-judul']}>Binar Car Rental</h6>
-                        <p className={AboutStyle['work-desc']}>I created websites by combining HTML for structure, CSS for styling, and React for dynamic interactivity to provide a visually appealing and interactive user experience.</p>
-                        <div className={AboutStyle['button-section']}>
-                            <Link href='' className={AboutStyle['button-left']}>
-                                Code
-                            </Link>
-                            <Link href='' className={AboutStyle['button-right']}>
-                                Site
-                            </Link>
+                <div className='row'>
+                    <div className='col-lg-4'>
+                        <div className={AboutStyle['card-judul']}>
+                            <h1>View My Work</h1>
+                        </div>
+                    </div>
+                    <div className='col-lg-4'>
+                        <div className={AboutStyle['card-work-1']}>
+                            <h1>Binar Car Rental</h1>
+                        </div>
+                    </div>
+                    <div className='col-lg-4'>
+                        <div className={AboutStyle['card-work-2']}>
+                            <h1>Binar Car Rental Admin</h1>
+                        </div>
+                    </div>
+                    <div className='col-lg-8'>
+                        <div className={AboutStyle['card-work-3']}>
+                            <h1>Landsnature</h1>
+                        </div>
+                    </div>
+                    <div className='col-lg-4'>
+                        <div className={AboutStyle['card-work-4']}>
+                            <h1>Repository</h1>
+                            <p>Feel free to explore and review my project on GitHub. You'll find all the code, documentation, and any other materials related to the project, and I'd appreciate your feedback and contributions if you have any.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div className='container'>
-                <div>
-                    <div className={AboutStyle['work-1']}>
-                        <Image src={Work2} 
-                                    className={AboutStyle['work-img']}
-                                    alt="Image Description"
-                                    width="100"      
-                                    height="100" 
-                                    placeholder='blur'
-                        />
-                        <h6 className={AboutStyle['work-judul']}>Binar Car Rental</h6>
-                        <p className={AboutStyle['work-desc']}>I created websites by combining HTML for structure, CSS for styling, and React for dynamic interactivity to provide a visually appealing and interactive user experience.</p>
-                        <div className={AboutStyle['button-section']}>
-                            <Link href='' className={AboutStyle['button-left']}>
-                                Code
-                            </Link>
-                            <Link href='' className={AboutStyle['button-right']}>
-                                Site
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className='container'>
-                <div>
-                    <div className={AboutStyle['work-1']}>
-                        <Image src={Work1} 
-                                    className={AboutStyle['work-img']}
-                                    alt="Image Description"
-                                    width="100"      
-                                    height="100" 
-                                    placeholder='blur'
-                        />
-                        <h6 className={AboutStyle['work-judul']}>Binar Car Rental</h6>
-                        <p className={AboutStyle['work-desc']}>I created websites by combining HTML for structure, CSS for styling, and React for dynamic interactivity to provide a visually appealing and interactive user experience.</p>
-                        <div className={AboutStyle['button-section']}>
-                            <Link href='' className={AboutStyle['button-left']}>
-                                Code
-                            </Link>
-                            <Link href='' className={AboutStyle['button-right']}>
-                                Site
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {/* </div> */}
         </div>
     )
 }

@@ -9,3 +9,25 @@
     font-weight: 700;
     border-bottom: 1px solid black;
 }
+.cate1judul {
+    margin-top: 20px;
+    border-left: 3px solid black;
+    padding-left: 10px;
+    font-weight: 700;
+}
+.categ-1 p {
+    margin-top: 10px;
+    margin-left: 15px;
+    padding-left: 20px;
+    width: 100px;
+    /* height: 40px; */
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.cate2judul {
+    margin-top: 20px;
+    border-left: 3px solid black;
+    padding-left: 10px;
+    font-weight: 700;
+}

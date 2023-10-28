@@ -1,0 +1,11 @@
+.wrapper-tools{
+    /* height: 300px; */
+    background-color: rgb(192, 235, 249);
+    padding: 70px 0;
+    /* position: sticky; */
+}
+.tool-judul {
+    font-size: 70px;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}

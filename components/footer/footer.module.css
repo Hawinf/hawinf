@@ -1,0 +1,21 @@
+.wrapper-footer {
+    padding: 70px 0;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.connect {
+    font-size: 50px;
+    font-weight: 700;
+    color: #365FA0;
+}
+.connect span {
+    color: yellow;
+}
+.copyright {
+    color: wheat;
+}
+.footer-right h6 {
+    color: wheat;
+}

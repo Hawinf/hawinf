@@ -1,17 +1,18 @@
 .wrapper-tools{
     /* height: 300px; */
-    background-color: rgb(192, 235, 249);
+    /* background-color: rgb(192, 235, 249); */
     padding: 70px 0;
     /* position: sticky; */
+    color: #365FA0;
 }
 .tool-judul {
     font-size: 70px;
     font-weight: 700;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #365FA0;
 }
 .cate1judul {
     margin-top: 20px;
-    border-left: 3px solid black;
+    border-left: 3px solid #365FA0;
     padding-left: 10px;
     font-weight: 700;
 }
@@ -21,13 +22,35 @@
     padding-left: 20px;
     width: 100px;
     /* height: 40px; */
-    border: 1px solid black;
+    /* height: 40px; */
+    border: 1px solid #365FA0;
     border-radius: 10px;
     font-weight: 500;
 }
-.cate2judul {
+/* .cate2judul {
     margin-top: 20px;
     border-left: 3px solid black;
     padding-left: 10px;
     font-weight: 700;
+} */
+.card-code-lang {
+    display: flex;
 }
+.card-code-lang p {
+    margin-top: 10px;
+    margin-left: 15px;
+    padding-left: 20px;
+    width: 100px;
+    /* height: 40px; */
+    /* height: 40px; */
+    border: 1px solid #365FA0;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.card-code-lang .css {
+    width: 85px;
+}
+.card-code-lang .bootstrap {
+    width: 115px;
+}
+

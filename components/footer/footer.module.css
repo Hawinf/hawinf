@@ -1,5 +1,6 @@
 .wrapper-footer {
     padding: 70px 0;
+    background-color: rgb(38, 38, 41);
 }
 .footer-content {
     display: flex;

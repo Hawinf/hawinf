@@ -6,7 +6,9 @@
     font-weight: 700;
     font-size: 70px;
 }
+
 .card-work-1 {
+    filter: brightness(0.3);
     background-image: url('../../assets/images/bcr-customer.png');
     height: 200px;
     background-size: cover;
@@ -17,9 +19,32 @@
     padding: 13px;
     font-size: 25px;
     font-weight: 700;
+    /* color: white; */
+    color: black;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+}
+.card-work-1 p {
+    margin-left: 13px;
+    margin-top: 90px;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+    transition: 0.3s ease, color 0.3s ease;
+}
+.card-work-1 p:hover {
+    background-color: wheat;
+    width: 115px;
+}
+.card-work-1 a {
+    text-decoration: none;
+    color: black;
 }
 .card-work-2 {
-    background-image: url('../../assets/images/bcr-platinum.png');
+    filter: brightness(0.3);
+    background-image: url('../../assets/images/platinum.png');
     height: 200px;
     background-size: cover;
     border-radius: 30px;
@@ -29,9 +54,31 @@
     padding: 13px;
     font-size: 25px;
     font-weight: 700;
+    color: black;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+}
+.card-work-2 a {
+    text-decoration: none;
+    color: black;
+}
+.card-work-2 p {
+    margin-left: 13px;
+    margin-top: 90px;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+    transition: 0.3s ease, color 0.3s ease;
+}
+.card-work-2 p:hover {
+    background-color: wheat;
+    width: 115px;
 }
 .card-work-3 {
     margin-top: 30px;
+    filter: brightness(0.3);
     background-image: url('../../assets/images/landsnature.png');
     height: 200px;
     background-size: cover;
@@ -39,22 +86,69 @@
     border: 2px solid wheat;
 }
 .card-work-3 h1 {
+    
     padding: 13px;
     font-size: 25px;
     font-weight: 700;
+    color: black;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
 }
+.card-work-3 a {
+    text-decoration: none;
+    color: black;
+}
+.card-work-3 p {
+    margin-left: 13px;
+    margin-top: 90px;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+    transition: 0.3s ease, color 0.3s ease;
+}
+.card-work-3 p:hover {
+    background-color: wheat;
+    width: 115px;
+}
+
 .card-work-4 {
+    filter: brightness(0.3);
     margin-top: 30px;
-    border: 2px solid wheat;
+    border: 1px solid wheat;
     border-radius: 30px;
     height: 200px;
 }
 .card-work-4 h1 {
     padding-top: 13px;
     padding-left: 13px;
+    font-size: 25px;
     font-weight: 700;
+    color: black;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
     
 }
 .card-work-4 p {
-    padding: 13px 0px 13px 13px;
+    margin-left: 13px;
+}
+
+.card-work-4 a {
+    text-decoration: none;
+    color: black;
+}
+.card-work-4 .ongithub {
+    margin-left: 13px;
+    /* margin-top: 90px; */
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+    transition: 0.3s ease, color 0.3s ease;
+}
+.card-work-4 .ongithub:hover {
+    background-color: wheat;
+    width: 115px;
 }

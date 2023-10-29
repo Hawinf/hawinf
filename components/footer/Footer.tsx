@@ -46,7 +46,9 @@ export const Footer = () => {
                                         className={FooterStyle['icon-sosmed']}
                                     />
                                 </Link>
+                                
                             </div>
+                            {/* <p>© 2023 Hawinf. All rights reserved</p> */}
                         </div>
                 </div>
             </div>

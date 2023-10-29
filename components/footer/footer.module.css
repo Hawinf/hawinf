@@ -49,3 +49,23 @@
     width: 26px;
     height: 26px;
 }
+
+@media (max-width:768px) {
+    .footer-content {
+        display: block;
+        text-align: center;
+        
+    }
+    .footer-left {
+        margin-bottom: 30px;
+    }
+    .footer-left .copyright {
+        display: none;
+    }
+    .footer-right {
+        justify-content: center;
+    }
+    .sosmed {
+        display: block;
+    }
+}

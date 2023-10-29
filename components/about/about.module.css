@@ -80,7 +80,7 @@
     width: 115px;
 }
 .card-work-3 {
-    margin-top: 30px;
+    margin-top: 10px;
     filter: brightness(0.3);
     background-image: url('../../assets/images/landsnature.png');
     height: 200px;
@@ -118,7 +118,7 @@
 
 .card-work-4 {
     filter: brightness(0.3);
-    margin-top: 30px;
+    margin-top: 10px;
     border: 1px solid wheat;
     border-radius: 30px;
     height: 200px;
@@ -154,4 +154,31 @@
 .card-work-4 .ongithub:hover {
     background-color: wheat;
     width: 115px;
+}
+
+@media (max-width:992px) {
+    .card-work-4 .ongithub {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .card-work-1 {
+        margin-top: 5px;
+    }
+    .card-judul h1 {
+        margin-bottom: 40px;
+    }
+    .card-work-2 {
+        margin-top: 7px;
+    }
+    .card-work-3 {
+        margin-top: 7px;
+    }
+    .card-work-4 {
+        margin-top: 7px;
+    }
+    .card-work-4 .ongithub {
+        margin-top: 80px;
+    }
 }

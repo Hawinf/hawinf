@@ -24,14 +24,6 @@ export const Header = () => {
 
 
     return (
-        // <div className={HeaderStyle['header-wrapper']}>
-        //     <div className={HeaderStyle['text-container']}>
-        //     {hidden?
-        //         <h5 className={HeaderStyle['head-1']}>WORK</h5>:<></>} 
-        //     </div>
-        // </div> 
-        
-        // <div className={HeaderStyle['header-wrapper']}>
         <>
 
             {

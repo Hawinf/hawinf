@@ -68,4 +68,14 @@
     .sosmed {
         display: block;
     }
+    .sosmed p {
+        width: 110px;
+        margin: auto;
+        padding-bottom: 5px;
+    }
+    .icon-sosmed {
+        margin-top: 20px;
+        /* margin-right: 0; */
+        margin: 10px;
+    }
 }

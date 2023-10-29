@@ -5,6 +5,9 @@
 .card-judul h1 {
     font-weight: 700;
     font-size: 70px;
+    color: black;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 2px;
 }
 
 .card-work-1 {
@@ -140,7 +143,7 @@
 }
 .card-work-4 .ongithub {
     margin-left: 13px;
-    /* margin-top: 90px; */
+    margin-top: 50px;
     border: 1px solid black;
     border-radius: 12px;
     width: 100px;

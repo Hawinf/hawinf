@@ -17,9 +17,35 @@
 .copyright {
     color: wheat;
 }
+.footer-right {
+    display: flex;
+}
 .footer-right h6 {
     color: wheat;
     font-size: 20px;
     /* color: yellow; */
     font-weight: 700;
+    
+}
+.gmail {
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+}
+.sosmed {
+    display: flex;
+    margin-top: 10px;
+    justify-content: end;
+}
+.sosmed p {
+    color: white;
+    margin-right: 15px;
+    margin-top: 2px;
+    border-bottom: 2px solid white;
+}
+.icon-sosmed {
+    margin-right: 10px;
+
+    width: 26px;
+    height: 26px;
 }

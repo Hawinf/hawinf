@@ -2,7 +2,7 @@ import ToolStyle from './tool.module.css';
 
 export const Tools = () => {
     return (
-        <div className={ToolStyle['wrapper-tools']}>
+        <div className={ToolStyle['wrapper-tools']} data-aos="fade-right">
             <div className='container'>
                 <h1 className={ToolStyle['tool-judul']}>Developed With</h1>
                 <div className={ToolStyle['tool-categ']}>

@@ -121,7 +121,7 @@
 
 @media (max-width:768px) {
 	.head-desc {
-		margin-right: 100px;
+		margin-right: 200px;
 		font-size: 60px;
 		line-height: 30px;
 	}
@@ -147,15 +147,18 @@
 
 @media (max-width:576px) {
 	.head-desc {
-		margin-left: 120px;
+		margin-left: 240px;
 		font-size: 40px;
 		line-height: 16px;
 	}
 	.head-desc1 {
+		margin-left: 90px;
 		font-size: 40px;
 		line-height: 16px;
 	}
 	.head-desc2 {
+		/* margin-left: 200px; */
+		margin-left: 100px;
 		font-size: 40px;
 		line-height: 16px;
 	}

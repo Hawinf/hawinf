@@ -22,7 +22,7 @@ export const Header = () => {
       }
     }
 
-      let lastKnownScrollPosition = 0;
+      let lastKnownScrollPosition = 1;
     
       document.addEventListener('scroll', function(e) {
         lastKnownScrollPosition = window.scrollY;
@@ -68,10 +68,10 @@ export const Header = () => {
 
                 <div className={HeaderStyle['header']}>
                   <p id="first" className={HeaderStyle['head-desc']} data-aos="fade-left">HAWINF</p>
-                  <p id="second" className={HeaderStyle['head-desc1']}>process of</p>
-                  <p id="third" className={HeaderStyle['head-desc2']}>acquiring </p>
-                  <p id="fourth" className={HeaderStyle['head-desc3']}>Frontend</p>
-                  <p id="fifth" className={HeaderStyle['head-desc4']}>Development</p>
+                  <p id="second" className={HeaderStyle['head-desc1']} data-aos="fade-right">process of</p>
+                  <p id="third" className={HeaderStyle['head-desc2']} data-aos="fade-left">acquiring </p>
+                  <p id="fourth" className={HeaderStyle['head-desc3']} data-aos="fade-right">Frontend</p>
+                  <p id="fifth" className={HeaderStyle['head-desc4']} data-aos="fade-left">Development</p>
                 </div>
               </div>
             :

@@ -11,12 +11,12 @@ export const About = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='col-lg-4'>
-                        <div className={AboutStyle['card-judul']}>
+                        <div className={AboutStyle['card-judul']}  data-aos="fade-right">
                             <h1>View My Work</h1>
                         </div>
                     </div>
                     <div className='col-lg-4'>
-                        <div className={AboutStyle['pembungkus']}>
+                        <div className={AboutStyle['pembungkus']}  data-aos="fade-left">
                             <div className={AboutStyle['card-work-1']}>
                                 <h1>Binar Car Rental</h1>
                                 <Link href=''>
@@ -26,7 +26,7 @@ export const About = () => {
                         </div>
                     </div>
                     <div className='col-lg-4'>
-                        <div className={AboutStyle['pembungkus']}>
+                        <div className={AboutStyle['pembungkus']} data-aos="fade-left">
                             <div className={AboutStyle['card-work-2']}>
                                 <h1>Binar Car Rental Admin</h1>
                                 <Link href=''>
@@ -36,7 +36,7 @@ export const About = () => {
                         </div>
                     </div>
                     <div className='col-lg-8'>
-                        <div className={AboutStyle['pembungkus']}>
+                        <div className={AboutStyle['pembungkus']}  data-aos="fade-right">
                             <div className={AboutStyle['card-work-3']}>
                                 <h1>Landsnature</h1>
                                 <Link href=''>
@@ -46,7 +46,7 @@ export const About = () => {
                         </div>
                     </div>
                     <div className='col-lg-4'>
-                        <div className={AboutStyle['card-work-4']}>
+                        <div className={AboutStyle['card-work-4']}  data-aos="fade-left">
                             <h1>Repository</h1>
                             <p>Feel free to explore and review my project on GitHub. You'll find all the code, documentation.</p>
                             <Link href='https://github.com/Hawinf'>

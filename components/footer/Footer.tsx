@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export const Footer = () => {
     return (
-        <div  className={FooterStyle['wrapper-footer']}>
+        <div  className={FooterStyle['wrapper-footer']} data-aos="fade-up">
             <div className='container'>
                 <div className={FooterStyle['footer-content']}>
                         <div className={FooterStyle['footer-left']}>

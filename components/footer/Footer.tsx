@@ -48,10 +48,12 @@ export const Footer = () => {
                                 </Link>
                                 
                             </div>
-                            {/* <p>© 2023 Hawinf. All rights reserved</p> */}
+                            
                         </div>
                 </div>
+                {/* <p>© 2023 Hawinf. All rights reserved</p> */}
             </div>
+            
         </div>
     )
 }

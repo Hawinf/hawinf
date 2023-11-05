@@ -4,11 +4,13 @@
     padding: 70px 0;
     /* position: sticky; */
     /* color: #365FA0; */
+    /* font-family: 'Bebas Neue', sans-serif; */
 }
 .tool-judul {
     font-size: 70px;
     font-weight: 700;
     border-bottom: 1px solid #365FA0;
+    font-family: 'Bebas Neue', sans-serif;
 }
 .cate1judul {
     margin-top: 20px;
@@ -27,6 +29,7 @@
     border-radius: 10px;
     font-weight: 500;
 }
+
 /* .cate2judul {
     margin-top: 20px;
     border-left: 3px solid black;
@@ -35,6 +38,7 @@
 } */
 .card-code-lang {
     display: flex;
+    flex-wrap: wrap;
 }
 .card-code-lang p {
     margin-top: 10px;
@@ -52,5 +56,17 @@
 }
 .card-code-lang .bootstrap {
     width: 115px;
+    
 }
 
+@media (max-width:768px) {
+    .tool-judul {
+        font-size: 40px;
+    }
+    /* .card-code p {
+        font-size: 11px;
+    }
+    .card-code-lang p {
+        font-size: 11px;
+    } */
+}

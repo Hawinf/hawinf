@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url(../assets/fonts/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../assets/fonts/BebasNeue-Regular.ttf');
+}
+body {
+    background-color: #e6e2de;
+}

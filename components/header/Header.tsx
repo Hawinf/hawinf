@@ -2,10 +2,44 @@ import Link from 'next/link';
 import HeaderStyle from './header.module.css';
 import { useState, useEffect } from 'react';
 
+
+
 export const Header = () => {
     const [hidden, setHidden] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
     const texts = ["HELLO,"];
+
+    const first = document.getElementById('first') as HTMLElement | null;
+    const second = document.getElementById('second') as HTMLElement | null;
+    const third = document.getElementById('third') as HTMLElement | null;
+    const fourth = document.getElementById('fourth') as HTMLElement | null;
+    const fifth = document.getElementById('fifth') as HTMLElement | null;
+
+    const animate = (element: HTMLElement | null, position: number) => {
+      // element.style.transform = `translateX(${position}px)`
+      if (element) {
+        element.style.transform = `translateX(${position}px)`;
+      }
+    }
+
+      let lastKnownScrollPosition = 0;
+    
+      document.addEventListener('scroll', function(e) {
+        lastKnownScrollPosition = window.scrollY;
+    
+        window.requestAnimationFrame(function() {
+          animate(first, lastKnownScrollPosition * 0.2);
+          animate(second, lastKnownScrollPosition * -0.2);
+          animate(third, lastKnownScrollPosition * 0.2);
+          animate(fourth, lastKnownScrollPosition * -0.2);
+          animate(fifth, lastKnownScrollPosition * 0.2);
+        });
+      });
+    
+    
+    
+
+
     
     useEffect(() => {
       const switchText = () => {
@@ -29,13 +63,15 @@ export const Header = () => {
             {
               hidden ? 
               <div className='container'>
+
+                
+
                 <div className={HeaderStyle['header']}>
-                  <p className={HeaderStyle['head-desc']}> Hello my name is,</p>
-                  <h5 className={HeaderStyle['head-1']}>HAWIN<span className={HeaderStyle['span']}>FAHMI</span></h5>
-                  <p className={HeaderStyle['head-desc-1']}>I am presently in the process of acquiring skills in <span>Frontend Development</span>, focusing on building the user interfaces of websites and web applications.</p>
-                  <Link href="https://hawinf54@gmail.com" className={HeaderStyle['contact']}>
-                    Contact
-                  </Link>
+                  <p id="first" className={HeaderStyle['head-desc']} data-aos="fade-left">HAWINF</p>
+                  <p id="second" className={HeaderStyle['head-desc1']}>process of</p>
+                  <p id="third" className={HeaderStyle['head-desc2']}>acquiring </p>
+                  <p id="fourth" className={HeaderStyle['head-desc3']}>Frontend</p>
+                  <p id="fifth" className={HeaderStyle['head-desc4']}>Development</p>
                 </div>
               </div>
             :
@@ -52,7 +88,6 @@ export const Header = () => {
             }
             
         </>
-        // </div>
     )
 }
-
+    

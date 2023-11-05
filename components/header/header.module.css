@@ -1,33 +1,48 @@
 
+
+
+
 .header {
-	/* padding: 200px 0; */
-	padding-top: 70px;
-    padding-bottom: 120px;
+	padding-top: 110px;
+    padding-bottom: 110px;
+	text-align: center;
+	/* font-family: 'Oswald', sans-serif; */
+	font-family: 'Bebas Neue', sans-serif;
 }
 .head-desc {
-	color: white;
-	font-size: 20px;
+	font-size: 100px;
 	font-weight: 700;
+	line-height: 60px;
+	color: black;
+	margin-left: 290px;
 }
-.head-1 {
-	color:  #365FA0;
-	line-height: 44px;
-	font-size: 55px;
+.head-desc1 {
+	margin-right: 150px;
+	font-size: 100px;
 	font-weight: 700;
+	line-height: 60px;
+	color: black;
 }
-.head-1 .span {
-	color: yellow;
+.head-desc2 {
+	margin-left: 160px;
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 60px;
+	color: black;
 }
-.head-desc {
-	line-height: 1px;
-	/* color: rgb(250, 220, 166); */
-	color: #4c5f7a;
-	
+.head-desc3 {
+	margin-right: 90px;
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 60px;
+	color: black;
 }
-.head-desc-1 {
-	width: 50%;
-	color: rgb(210, 193, 163);
-	font-weight: 500;
+.head-desc4 {
+	margin-left: 200px;
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 60px;
+	color: black;
 }
 .header span {
 	/* color: rgb(250, 220, 166); */
@@ -82,27 +97,74 @@
 }
 
 @media (max-width:992px) {
-	.head-desc-1 {
-		width: 75%;
+	.head-desc {
+		font-size: 80px;
+		line-height: 43px;
+	}
+	.head-desc1 {
+		font-size: 80px;
+		line-height: 43px;
+	}
+	.head-desc2 {
+		font-size: 80px;
+		line-height: 43px;
+	}
+	.head-desc3 {
+		font-size: 80px;
+		line-height: 43px;
+	}
+	.head-desc4 {
+		font-size: 80px;
+		line-height: 43px;
 	}
 }
-
 
 @media (max-width:768px) {
 	.head-desc {
-		font-size: 17px;
+		margin-right: 100px;
+		font-size: 60px;
+		line-height: 30px;
 	}
-	.head-desc-1 {
-		width: 70%;
-		font-size: 14px;
+	.head-desc1 {
+		font-size: 60px;
+		line-height: 30px;
+	}
+	.head-desc2 {
+		font-size: 60px;
+		line-height: 30px;
+	}
+	.head-desc3 {
+		font-size: 60px;
+		line-height: 30px;
+	}
+	.head-desc4 {
+		margin-right: 100px;
+		font-size: 60px;
+		line-height: 30px;
 	}
 }
 
+
 @media (max-width:576px) {
-	.head-1 {
-		font-size: 50px;
+	.head-desc {
+		margin-left: 120px;
+		font-size: 40px;
+		line-height: 16px;
 	}
-	.head-desc-1 {
-		width: 90%;
+	.head-desc1 {
+		font-size: 40px;
+		line-height: 16px;
+	}
+	.head-desc2 {
+		font-size: 40px;
+		line-height: 16px;
+	}
+	.head-desc3 {
+		font-size: 40px;
+		line-height: 16px;
+	}
+	.head-desc4 {
+		font-size: 40px;
+		line-height: 16px;
 	}
 }

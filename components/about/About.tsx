@@ -19,7 +19,7 @@ export const About = () => {
                         <div className={AboutStyle['pembungkus']}  data-aos="fade-left">
                             <div className={AboutStyle['card-work-1']}>
                                 <h1>Binar Car Rental</h1>
-                                <Link href=''>
+                                <Link href='https://hawin.vercel.app/'>
                                     <p>Visit Web</p>
                                 </Link>
                             </div>
